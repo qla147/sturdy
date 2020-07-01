@@ -299,17 +299,122 @@
          </table>
          ```
 
-         
 
-   7. 
+
+## 10.html 表单
+
+​	一个完整的表单通常是由表单控件（也称表单元素），提示信息和表单域3个部分组成
+
+| 序号 |  部  分  | 解析                                                         |
+| :--: | :------: | ------------------------------------------------------------ |
+|  1   | 表单控件 | 包含了具体的表单功能项，如单行文本输入框，密码输入框，复选框，提交按钮，重置按钮等 |
+|  2   | 提示信息 | 一个表单中通常还需要包含一些说明性的文字，提示用户进行填写和操作 |
+|  3   |  表单域  | 它相当于一个容器，用来容纳所有的表单控件和提示信息，可以通过他定义处理表单数据所用的程序的url以及数据的提交方式，如果不定义表单域，表单中的数据就无法传送到后台服务器 |
+
+
+
+1. ##  input控件
+
+   在上面的语法中，input标签为单标签，type属性为其最基本的属性，其取值有多种，用于指定不同的控件类型，除了type属性之外，input标签还有可以定期很多其他的属性，其常用属性如下：
+
+   | 属性      | 属性值     | 描述                        |
+   | --------- | ---------- | --------------------------- |
+   | type      | text       | 单行文本输入框              |
+   | type      | password   | 密码输入框                  |
+   | type      | radio      | 单选按钮                    |
+   | type      | checkbox   | 复选框                      |
+   | type      | button     | 普通按钮                    |
+   | type      | submit     | 提交按钮                    |
+   | type      | reset      | 重置按钮                    |
+   | type      | image      | 图像形式的提交按钮          |
+   | type      | file       | 文件域                      |
+   | name      | 用户自定义 | 控件的名称                  |
+   | value     | 用户自定义 | input控件中的默认文本值     |
+   | size      | 正整数     | input控件中页面中显示的宽度 |
+   | checked   | checked    | 定义选择控件默认被选中的项  |
+   | maxlength | 正整数     | 控件容许输入的最多字符数    |
+
+   ```html
+       <p>用户名： <input type="text" value="输入名字" maxlength="18"></p>
+       <p>密&nbsp;码：<input type="password"></p>
+       <p>性&nbsp;别：<input type="radio" name="sex" checked="checked">男 <input name='sex' type="radio">女 </p>
+       <p>爱&nbsp;好: <input type="checkbox" name="favor"> 足球 <input name="favor" type="checkbox" checked="checked"> 篮球<input name="favor" type="checkbox"> 排球</p>
+       <p>文&nbsp;件: <input type="file"> </p>
+   
+       <input type="button" value="搜索">
+       <input type="reset" value="重置">
+       <input type="submit" value="提交"><br/>
+      <input type="image" src="images/im.jpg">
+   ```
+
+   
+
+2. ### label标签
+
+   label标签为input元素定义标注（标签）
+
+   作用：用于绑定一个表单元素，当点击label标签时刻，被绑定的表单元素就会获取输入焦点
+
+   用法：
+
+   ```html
+   <label for="male">Male</label>
+   <input type='radio' name="sex" id="male" value="male">
+   ```
+
+3. ### textarea控件（文本域）
+
+   如果要输入大量的信息，就需要用到文本域，文本域控件可以情动的创建多行输入框
+
+   ```html
+   <textarea cols="200" rows="40">
+   </textarea>
+   ```
+
+4. ### 下拉菜单
+
+   使用select控件定义下拉菜单的基本语法格式如下
+
+   ```html
+   <select name="select_item">
+       <option selected="selected">1</option>
+       <option>2</option>
+       <option>3</option>
+       <option>4</option>
+   </select>
+   ```
+
+   1. select标签中至少要包含一对option
+   2. 在option中定义selected=“selected”时，该项被默认选中
+
+5. ### 表单域
+
+   在HTML中，form标签被用于定义表单域，即创建一个表单，以实现用户信息的收集和传递，form中所有的内容都会被提交给服务器，创建表单的基本语法格式如下：
+
+   ```html
+   <form action="/server/address" method="get/post" name="">
+       <div>
+           <label for="name"><input id="name" name="name" type="text"></label>
+       </div>
+           <div>
+           <label for="passwd"><input id="passwd" name="passwd" type="password"></label>
+       </div>
+       <input type="reset" value="rest">
+       <input type="submit" value="submit">
+   </form>
+   ```
+
+   1.  Action 在表单收集到数据之后，点击提交的时候，数据会被传送到指定的服务器程序中，而action就是服务器提交的地址URL
+   2. method用于设置表单数据的提交方式，取值为get/post
+   3. name用于指定表单的名称，以区分多个表单
 
    
 
    
 
-   
+   ## 11.html5新增标签
 
-   
+   ​	1. datalist标签
 
-   ## 
+
 
