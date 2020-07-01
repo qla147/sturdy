@@ -1,0 +1,18 @@
+1>:turtle绘制
+    1>>: 库引用 ===> 扩充Python程序功能的方式
+        ===> 使用import 保留字完成，采用<a>.<b> 编码风格
+        ===> import turtle
+        1>>>: import更多用法：
+            ===> 使用from和import 保留字共同完成
+            ===> 使用import和as保留字共同完成
+
+    2>>:turtle 画笔控制
+        ===> 画笔控制函数 画笔操作后一直有效，一般成对出现
+        1>>>: turtle.penup() ===>别名 turtle.pu()  ===>抬起画笔海龟飞行 ===>不画图
+        2>>>: turtle.pendown() ===> 别名 turtle.pd() ===>落下画笔， ===> 开始作图
+        3>>>： turtle.pensize(width) ===> 别名 turtle.width(width) ===> 线的粗细
+        4>>>: turtle.pencolor(color) ===> 画笔的颜色 颜色使用RGB颜色
+            ===> 颜色字符串 turtle.pencolor("purple");
+            ===> RGB的小数值 turtle.pencolor(0.63,0.13,0.94)
+            ===> RGB的元组值
+
