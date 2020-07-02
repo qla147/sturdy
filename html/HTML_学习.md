@@ -411,10 +411,147 @@
    
 
    
+ ## 11.html5新增
 
-   ## 11.html5新增标签
+   1. ### 新增常用标签
 
-   ​	1. datalist标签
+       1. header标签：定义文档的页眉头部
+
+       2. nav标签：定义导航链接的部分
+
+       3. footer标签 ：定义文档或者节的页脚或者底部
+
+       4. article：定义文章
+
+       5. section：定义文档中的节
+
+       6. aside: 定义其所处内容之外的内容，侧边
+
+       7. datalist:标签定义选项列表，请与input元素联合使用该元素
+
+       8. fieldset元素可将表单内的相关元素分组打包
+
+          ```html
+          <input type="text" value="输入明显" list=“star”>
+          <datalist id="star">
+          	<option>刘德华</option>
+              <option>刘德华1</option>
+              <option>刘德华2</option>
+              <option>刘德华3</option>
+          </datalist>
+          
+          ```
+
+          
+
+   2. ### 新增input type属性值
+
+      | 类型     | 使用示例                 | 含义                 |
+      | -------- | ------------------------ | -------------------- |
+      | email    | <input tyep="email" >    | 输入邮箱格式         |
+      | tel      | <input tyep="tel" >      | 输入手机号码格式     |
+      | url      | <input tyep="url" >      | 输入url格式          |
+      | number   | <input tyep="number" >   | 输入数字格式         |
+      | search   | <input tyep="search" >   | 搜索框（体现语义化） |
+      | range    | <input tyep="range" >    | 自由拖动滑块         |
+      | time     | <input tyep="time" >     | 小时分钟             |
+      | date     | <input tyep="date" >     | 年月日               |
+      | datetime | <input tyep="datetime" > | 时间                 |
+      | month    | <input tyep="month" >    | 月年                 |
+      | week     | <input tyep="week" >     | 星期年               |
+      | color    | <input type="color">     | 颜色                 |
+
+      
+
+   3. ### 新增常用属性
+
+      | 属性         | 用法                                           | 描述                                      |
+      | ------------ | ---------------------------------------------- | ----------------------------------------- |
+      | placeholder  | <input type="text" placeholder="请输入用户名"> | 占位符提供可描述输入字段预期值的提示信息  |
+      | autofocus    | <input type="text" autofocus>                  | 规定当页面加载时input元素应该自动获得焦点 |
+      | multiple     | <input type="file" multiple>                   | 多文件上传                                |
+      | autocomplete | <input type="text" autocomplete="off">         | 规定表单是否应该启用自动完成功能          |
+      | required     | <input type="text" required>                   | 必填项                                    |
+      | accesskey    | <input type="text" accesskey="s">              | 规定激活（是元素获得焦点）元素的快捷键    |
+
+   
+
+   ```html
+   <form action="" method="get" >
+           <fieldset>
+               <legend>学生档案</legend>
+               <label>姓名：<input type="text" placeholder="输入姓名"></label><br/>
+               <label>手机号：<input type="tel"> </label><br/>
+               <label>邮箱：<input type="email"> </label><br/>
+               <label>所属学院：<input type="text" list="xueyuan" placeholder="请选择学院" >
+                   <datalist id="xueyuan">
+                       <option>JAVA学院</option>
+                       <option>前端学院</option>
+                       <option>PYTHON学院</option>
+                       <option>GO学院</option>
+                       <option>PHP学院</option>
+                   </datalist> </label><br/>
+               <label>出生日期：<input type="date"></label><br/>
+               <label>成绩： <input type="number"></label> <br/>
+               <label>毕业时间：<input type="date"></label><br/>
+               <input type="submit" value="submit">
+               <input type="reset" value="reset">
+           </fieldset>
+       </form>
+   ```
+
+   
+
+## 12.多媒体标签
+
+embed：标签定义嵌入的内容 audio ：播放音频  video: 播放视频
+
+1. ###  多媒体embed
+
+   embed 可以用来插入各种多媒体，格式可以是midi wav aiff,au mp3等等，url为音频或者视频及其路径，可以是相对路径也可以是绝对路径
+
+   ```html
+   <embed src="https://youtube.com/ajsd9sdfhas" allowFullScreen="true" quality="high" width = "480px" height="500px" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash">
+   </embed>
+   ```
+
+2. ### 多媒体audio
+
+   HTML5通过audio标签来解决音频播放的问题
+
+   使用相当简单
+
+   ```html
+   
+   <audio src="vedio/bgsound.mp3" autoplay="autoplay" controls="controls" loop="-1"></audio>
+   <audio controls autoplay >
+       <source src="vedio/bgsound.mp3">
+       <source src="vedio/music.ogg" >
+   </audio>
+   
+   <video autoplay controls height="400px" width="600px">
+   <source src="vedio/movie04.ogg">
+       <source src="vedio/mp4.mp4">
+   </video>
+   ```
+
+   autoplay:自动播放
+
+   controls：播放器控制器
+
+   loop:循环
+
+   width: 视频设置宽度
+
+   height： 视频设置高度
+
+   
+
+   
+
+   
+
+   
 
 
 
