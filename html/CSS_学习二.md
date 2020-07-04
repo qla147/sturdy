@@ -506,5 +506,38 @@ css就三大模块，盒子模型，浮动和定位，其余的都是细节。
     | inset    | 可选。将外部阴影改为内部阴影。     |
 
     1. 前两个属性是必须写的，其余可以省略。
+    
     2. 外阴影（outset）但是不能写 默认，想内阴影 inset 。
+    
+       ```html
+       <!DOCTYPE html>
+       <html lang="en">
+       <head>
+           <meta charset="UTF-8">
+           <title>Title</title>
+           <style>
+               div{
+                   width: 249px;
+                   height: 249px;
+                   /*background-color: pink;*/
+                   margin: 100px;
+                   background: url("images/shui.jpg") 0 0 no-repeat;
+                   font-size: 30px;
+                   text-align: center;
+                   color: white;
+                   border-radius: 50%;
+                   line-height: 249px;
+                   box-shadow: 5px 5px 10px 14px rgba(255,255,255,0.7) inset ,
+                   5px 4px 10px  rgba(0,0,0,0.4);
+               }
+       
+           </style>
+       </head>
+       <body>
+           <div>水晶图片</div>
+       </body>
+       </html>
+       ```
+    
+       
 
