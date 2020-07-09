@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0 ;
+            padding: 0 ;
+        }
+        ul{
+            list-style: none;
+        }
+        .slider{
+            height: 280px;
+            width: 520px;
+            background-color: pink;
+            margin: 50px auto;
+            position: relative;
+        }
+
+        .arrow-l , .arrow-r{
+            position: absolute;
+            width: 24px;
+            height: 36px;
+            display: block;
+            top: 50%;
+            margin-top: -18px;
+        }
+
+        .arrow-r{
+            right: 0;
+        }
+        .circle{
+            width: 65px;
+            height: 14px;
+            position: absolute;
+            background: rgba();
+            left: 50%;
+            margin-left: -32px;
+            bottom: 15px;
+            border-radius: 6px;
+        }
+        .circle li {
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            background-color: #b7b7b7;
+            float: left;
+            margin: 2px;
+
+        }
+        .circle .current{
+            background-color: #ff4400;
+        }
+    </style>
+</head>
+<body>
+    <div class="slider">
+        <img src="images/taobao.jpg">
+        <a href="#" class="arrow-l"><img src="images/left.png"></a>
+        <a href="#" class="arrow-r"><img src="images/right.png"> </a>
+        <ul class="circle">
+            <li class="current"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+</html>

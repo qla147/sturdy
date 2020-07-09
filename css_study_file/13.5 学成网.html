@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学成教育网</title>
+    <style>
+
+        /*样式初始化*/
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        /*去掉列表样式*/
+        ul{
+            list-style: none;
+        }
+        body{
+            background-color: #f3f5f7;
+        }
+        input {
+            border: 0;  /* 所有的表单边框为0 */
+            box-sizing: border-box; /* CSS3盒子模型 border 和 padding 都包含到 width 里面去 */
+        }
+        .container{
+            width: 1200px;
+            margin: 0 auto;
+        }
+        /*清除浮动*/
+        .clearfix:before,.clearfix:after{
+            display: table;
+            content: "";
+        }
+        .clearfix:after{
+            clear: both;
+        }
+        .clearfix{
+            *zoom:1;
+        }
+
+        a{
+            color: #555;
+            text-decoration: none;
+        }
+
+        /*页面头部分*/
+        header{
+            height: 100px;
+            /*background-color: pink;*/
+            overflow: hidden;
+        }
+        /*导航栏部分*/
+        nav{
+            width: 1366px;
+            height: 42px;
+            /*background-color: purple;*/
+            margin: 26px auto;
+        }
+        .logo{
+            float: left;
+        }
+        .navbar{
+            float: left;
+            height: 42px;
+            line-height: 42px;
+        }
+
+        .navbar li{
+            float: left;
+        }
+        .navbar li a {
+            padding: 0 8px;
+            display: block;
+            height: 42px;
+        }
+
+        .navbar li a:hover{
+            border-bottom: 2px solid #00a4ff ;
+        }
+
+        .search{
+            height: 38px;
+            width: 410px;
+            border: 1px solid #00a4ff;
+            float: left;
+        }
+
+        .search input[type=text]{
+            width: 360px;
+            height: 38px;
+            padding-left: 20px;
+            float: left;
+
+        }
+
+        .search input[type=submit]{
+            width: 50px;
+            height: 38px;
+            float: left;
+            background: #00a4ff url("images/search_06.png") center center  no-repeat;
+        }
+        .personal{
+            float: right;
+            height: 42px;
+            line-height: 42px;
+            margin: 0 15px 0 35px ;
+        }
+
+        .personal img{
+            margin: 0 8px;
+        }
+
+        /*banner部分*/
+        .banner{
+            height: 420px;
+            background-color: #1c036c;
+        }
+        .banner-in{
+            /*background-color: hotpink;*/
+            height: 420px;
+            background: url("images/banner_03.png") 0 0 no-repeat;
+        }
+
+        .slidebar{
+            height: 420px;
+            float: left;
+
+            width: 190px;
+            background: rgba(0,0,0,0.4);
+        }
+        /*.slidebar li */
+        .slidebar li a {
+            color: #fff;
+            font-size: 14px;
+            padding: 0 20px;
+            display: block;
+            height: 45px;
+            line-height: 45px;
+        }
+
+        .slidebar li a:hover{
+            color: #00a4ff;
+        }
+
+
+        .slidebar li span{
+            float: right;
+            color: #fff;
+            line-height: 45px;
+        }
+
+        /*小课表部分*/
+
+        .timetable {
+            float: right;
+            width: 230px;
+            height: 300px;
+            margin-top: 50px;
+            background-color: #fff;
+        }
+
+        .timetable dt {
+            height: 50px;
+            background-color: #9bceea;
+            text-align: center;
+            line-height: 50px;
+            color: #fff;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+        }
+
+        .timetable dd{
+            width: 193px;
+            height: 60px;
+            margin: 0 auto;
+            /*background-color: purple;*/
+            border-bottom: 1px solid #ccc;
+            padding-top: 12px;
+            box-sizing: border-box;
+        }
+        .timetable dd:last-child{
+            border: 0;
+        }
+
+        .timetable dd h4{
+            font-size: 16px;
+            font-weight: normal;
+            color: #4e4e4e;
+        }
+        .timetable dd p{
+            font-size: 14px;
+            color: #a5a5a5;
+        }
+        .timetable dd a {
+            height: 38px;
+            border: 1px solid #00a4ff;
+            display: block;
+            text-align: center;
+            line-height: 38px;
+            color: #00a4ff;
+            font-weight: 700;
+        }
+
+        .timetable dd a:hover{
+            background-color: #00a4ff;
+            color: #fff;
+        }
+        /*精品推荐部分*/
+        .recommend{
+            height: 60px;
+            line-height: 60px;
+            background-color: #fff;
+            margin-top: 8px;
+            box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+        }
+
+        .recommend a{
+            padding : 0 30px;
+            border-right: 1px solid #ccc;
+        }
+        .recommend a:first-child{
+            color: #00a4ff;
+        }
+        .recommend a:hover{
+            color: #00a4ff;
+        }
+        .recommend a:last-child{
+            border: 0;
+            color: #00a4ff;
+            float: right;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+<!--header部分-->
+    <header>
+        <nav >
+<!--            logo部分-->
+            <div class="logo">
+                <img src="images/logo_03.png">
+            </div>
+<!--            导航栏部分-->
+            <div class="navbar">
+                <ul>
+                    <li><a href="">首页</a></li>
+                    <li><a href="">课程</a></li>
+                    <li><a href="">职业规划</a></li>
+                </ul>
+            </div>
+            <div class="personal">
+                <a href="#">个人中心<img src="images/ling_06.png"></a>
+                <a href="#"><img src="images/tou_03.png">张学友</a>
+            </div>
+            <div class="search">
+                <form action="">
+                    <input type="text" placeholder="请输入关键字">
+                    <input type="submit" value="" >
+                </form>
+            </div>
+
+        </nav>
+    </header>
+<!--    banner部分-->
+    <div class="banner">
+        <div class="banner-in container">
+<!--            左侧导航栏-->
+            <div class="slidebar">
+                <ul>
+                    <li><a href="">前端开发  <span> > </span> </a> </li>
+                    <li><a href="">前端开发  <span> > </span> </a> </li>
+                    <li><a href="">前端开发  <span> > </span> </a> </li>
+                    <li><a href="">前端开发  <span> > </span> </a> </li>
+                    <li><a href="">前端开发  <span> > </span> </a> </li>
+                    <li><a href="">前端开发  <span> > </span> </a> </li>
+                    <li><a href="">前端开发  <span> > </span> </a> </li>
+                    <li><a href="">前端开发  <span> > </span> </a> </li>
+                    <li><a href="">前端开发  <span> > </span> </a> </li>
+                </ul>
+
+            </div>
+            <dl class="timetable">
+                <dt>我的课程表</dt>
+                <dd>
+                    <h4>继续学习 程序语言设计</h4>
+                    <p>正在学习-使用对象</p>
+                </dd>
+                <dd>
+                    <h4>继续学习 程序语言设计</h4>
+                    <p>正在学习-使用对象</p></dd>
+                <dd>
+                    <h4>继续学习 程序语言设计</h4>
+                    <p>正在学习-使用对象</p>
+                </dd>
+                <dd>
+                    <a href="#">全部课程</a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="recommend container" >
+        <a href=""> 精品推荐</a>
+        <a href="">Jquery</a>
+        <a href="">Spark</a>
+        <a href="">Mysql</a>
+        <a href="">Java web</a>
+        <a href="">MongoDb</a>
+        <a href="">Javascript</a>
+        <a href="">修改兴趣</a>
+    </div>
+
+</body>
+</html>

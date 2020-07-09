@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0 ;
+            padding: 0 ;
+        }
+        ul{
+            list-style: none;
+        }
+        .top{
+            height: 90px;
+            border: 1px solid #333;
+            background-color: #ccc;
+            text-align: center;
+        }
+
+        .banner{
+            width: 960px;
+            border: 1px solid #333;
+            height: 150px;
+            margin: 10px auto;
+        }
+        .small{
+            width: 960px;
+            height: 100px;
+            margin: 10px auto ;
+            border: 1px solid #222;
+            background-color: pink;
+        }
+
+
+        .small ul li {
+            height: 100px;
+            float: left;
+            width: 230px;
+            background-color: #999;
+        }
+        .small ul li:nth-child(2){
+            margin: 0 13px;
+        }
+        .small ul li:last-child{
+            float:right;
+        }
+
+
+
+        .big{
+            width: 960px;
+            margin: 10px auto;
+            height: 400px;
+        }
+        .big ul li {
+            height: 400px;
+            float: left;
+            width: 230px;
+            background-color: #999;
+        }
+
+        .big ul li:nth-child(2){
+            margin: 0 13px;
+        }
+        .big ul li:last-child{
+            float:right;
+        }
+
+        .footer{
+            height: 150px;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="top"></div>
+    <div class="banner"></div>
+    <div class="small">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </div>
+    <div class="small">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </div>
+    <div class="big">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </div>
+    <div class="footer"></div>
+</body>
+</html>
