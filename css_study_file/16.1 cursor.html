@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+        div:first-child{
+            cursor: default;
+        }
+        div:nth-child(2){
+            background-color: purple;
+            cursor: pointer;
+        }
+        div:nth-child(3){
+            background-color: skyblue;
+            cursor: move;
+        }
+        div:nth-child(4){
+            background-color: orange;
+            cursor: text;
+        }
+    </style>
+</head>
+<body>
+<div>小白</div>
+<div>小手</div>
+<div>移动</div>
+<div>文本</div>
+</body>
+</html>
