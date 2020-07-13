@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        section{
+            width: 80%;
+            height: 200px;
+            border: 1px solid black;
+            display: flex;
+            min-width: 400px;
+            margin: 100px auto;
+            max-width: 1280px;
+            flex-direction: column;
+        }
+        section div{
+            height: 100%;
+        }
+        div:nth-child(1){
+            background-color: pink;
+            flex: 1;
+        }
+
+        div:nth-child(2){
+            background-color: purple;
+            /*width: 200px;*/
+            flex: 1;
+        }
+        div:nth-child(3){
+            background-color: skyblue;
+            flex: 1;
+        }
+
+    </style>
+</head>
+<body>
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+
+
+</body>
+</html>
