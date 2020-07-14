@@ -1,0 +1,135 @@
+/*中间分类模块的开始*/
+img{
+    vertical-align: top;
+}
+.grid{
+    height: 480px;
+    /*background: pink;*/
+}
+.grid-col-1{
+    width: 190px;
+    height: 100%;
+    background: #6e6568;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+}
+.grid-col-1 a{
+    color: #fff;
+    font-size: 14px;
+    margin: 0px 3px ;
+}
+.grid-col-1 a:hover{
+    color: #f10215;
+}
+.grid-col-1 ul {
+    padding: 10px 0;
+}
+.grid-col-1 ul li {
+    padding-left: 12px;
+    height: 29px ;
+    line-height: 26px;
+}
+
+.grid-col-1 ul li:hover{
+    background-color: #9c9698;
+}
+
+.grid-col-2{
+    width: 790px;
+    height: 100%;
+    /*background: purple;*/
+    margin-left: 10px;
+}
+.grid-col-2-top{
+    position: relative;
+}
+
+.arrow-right, .arrow-left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 60px;
+    background-color: rgba(0,0,0,0.3);
+    font-family: icomoon;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    color: rgba(255,255,255,.6);
+}
+
+.arrow-right{
+    right: 0;
+}
+.arrow-left{
+    left: 0;
+}
+
+.grid-col-2-b div{
+    margin-top: 10px;
+}
+
+
+.circle{
+    width: 175px;
+    height: 20px;
+    background: rgba(255,255,255,.6);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    line-height: 20px;
+    border-radius: 10px;
+    padding-left: 8px;
+}
+
+.circle li{
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    float: left;
+    margin: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.circle .current{
+    background-color: #f10215;
+}
+
+
+/*右边模考*/
+.grid-col-3{
+    width: 190px;
+    height: 100%;
+    background-color: skyblue;
+}
+.login{
+    height: 85px;
+    background-color: pink;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+}
+.login-top{
+    width: 95px;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow :ellipsis ;
+    color: #666;
+    padding-left: 60px;
+    height: 60px ;
+    line-height: 20px;
+}
+.new{
+    height: 154px;
+    border: 1px solid #ccc;
+    background-color: purple;
+}
+.expand{
+    height: 208px;
+    border: 1px solid #ccc;
+    background-color: skyblue;
+}
