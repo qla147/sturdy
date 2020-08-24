@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/zepto.min.js"></script>
+    <script src="js/zepto-master/src/selector.js"></script>
+    <script src="js/zepto-master/src/touch.js"></script>
+    <script>
+        $(function (){
+            // 1.添加首尾两张图片
+            // 2.重新设置图片盒子和宽度和图片的宽度
+            // 3开启定时器 实现自动轮播
+            // 4.添加移动端滑动事件，实现手动轮播
+            // 5. 添加过度效果结束之后的监听
+
+            let banner = $(".jd_banner");
+            let bannerWidth = banner.width();
+            // 获取图片盒子
+             let imgBox = banner.find("ul:first-of-type");
+             let indicators = banner.find("ul:eq(1)");
+            let first = imgBox.find("li:first-of-type");
+            let last = imgBox.find("li:last-of-type");
+            //将两张图片分别放入开始和结尾
+            imgBox.append(first.clone())
+            last.clone().insertBefore(first);
+
+
+            //设置图片盒子的宽度
+
+            let lis = imgBox.find("li");
+            let count = lis.length ;
+            imgBox.width(count*bannerWidth);
+            lis.each(function (index,value){
+                $(lis[index]).width(bannerWidth);
+            })
+
+            imgBox.css("left",-bannerWidth);
+            // 定义图片索引
+            let index = 0 ;
+            function imgAnimation(){
+                imgBox.animate(
+                    {"left":-index*bannerWidth},
+                    200,
+                    "ease-in-out",
+                    function (){
+                        //动画执行完毕之后的回调
+                        //判断当前索引是否是最后一张或者第一张
+                        if(index == count-1){
+                            //最后一张
+                            index = 1 ;
+                            imgBox.css("left",-index*bannerWidth)
+                        }else if(index == 0){
+                            index = count - 2 ;
+                            imgBox.css("left",-index*bannerWidth)
+                        }
+                        indicators.removeClass("active").eq(index-1).addClass("active");
+                        if(timeId== null){
+                            intervalSet();
+                        }
+                    }
+                )
+
+            }
+            //开启定时器
+            //需要添加动画效果的样式---对象
+            let timeId = null ;
+            function intervalSet(){
+                timeId= setInterval(function (){
+                    index++ ;
+                    //1.添加动画效果的样式---对象
+                    //2. 动画的耗时
+                    //3. 动画的速度函数
+                    //当前动画执行完毕之后的回调函数
+                    imgAnimation();
+                },2000);
+            }
+            intervalSet();
+
+
+            imgBox.on("swipeLeft",function (){
+                index++;
+                clearInterval(timeId)
+                timeId = null ;
+                imgAnimation();
+
+            })
+            imgBox.on("swipeRight",function (){
+                index--;
+                clearInterval(timeId)
+                timeId = null ;
+                imgAnimation();
+            })
+
+        })
+    </script>
+<!--    <script src="js/index.js"></script>-->
+    <title>JD</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="js_layout">
+<!--        搜索块-->
+        <div class="jd_search">
+            <a href="javascript:;" class="jd_logo"></a>
+            <form action="" class="jd_searchBox">
+                <input type="text">
+            </form>
+            <a href="javascript:;" class="jd_login">登录</a>
+        </div>
+<!--        轮播图快-->
+        <div class="jd_banner">
+            <ul class="jd_bannerImg clearfix">
+                <li>
+                    <a href="#">
+                        <img src="uploads/l1.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="uploads/l2.jpg" alt="">
+                    </a>
+                <li>
+                    <a href="#">
+                        <img src="uploads/l3.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="uploads/l4.jpg" alt="">
+                    </a>
+                </li>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="uploads/l5.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="uploads/l6.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="uploads/l7.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="uploads/l8.jpg" alt="">
+                    </a>
+                </li>
+
+            </ul>
+            <ul class="jd_bannerIndicator">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+<!--        导航栏快-->
+        <div class="jd_nav" >
+            <ul class="clearfix">
+                <li><a href=""><img src="images/nav_1.png" alt=""><p>商品分类</p></a></li>
+                <li><a href=""><img src="images/nav_2.png" alt=""><p>商品分类</p></a></li>
+                <li><a href=""><img src="images/nav_3.png" alt=""><p>商品分类</p></a></li>
+                <li><a href=""><img src="images/nav_4.png" alt=""><p>商品分类</p></a></li>
+                <li><a href=""><img src="images/nav_5.png" alt=""><p>商品分类</p></a></li>
+                <li><a href=""><img src="images/nav_6.png" alt=""><p>商品分类</p></a></li>
+                <li><a href=""><img src="images/nav_7.png" alt=""><p>商品分类</p></a></li>
+                <li><a href=""><img src="images/nav_8.png" alt=""><p>商品分类</p></a></li>
+            </ul>
+        </div>
+<!--        产品快-->
+        <div class="jd_product">
+            <div class="jd_productBox clearfix jd_sk">
+                <div class="jd_pTip">
+                    <div class="jd_left f_left">
+                        <span class="jd_sk_icon f_left m_left10"></span>
+                        <span class="jd_sk_text f_left m_left10">掌上秒杀</span>
+                        <div class="jd_sk_time f_left m_left10">
+                            <span>0</span>
+                            <span>0</span>
+                            <span>:</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>:</span>
+                            <span>0</span>
+                            <span>0</span>
+                        </div>
+                    </div>
+                    <div class="jd_right f_right m_right10">更多秒杀...</div>
+                </div>
+                <div class="jd_pContent clearfix">
+                    <ul>
+                        <li>
+                            <a href=""><img src="uploads/detail01.jpg" alt=""></a>
+                            <p>&yen;10.00</p>
+                            <p>&yen;20.00</p>
+                        </li>
+                        <li>
+                            <a href=""><img src="uploads/detail01.jpg" alt=""></a>
+                            <p>&yen;10.00</p>
+                            <p>&yen;20.00</p>
+                        </li>
+                        <li>
+                            <a href=""><img src="uploads/detail01.jpg" alt=""></a>
+                            <p>&yen;10.00</p>
+                            <p>&yen;20.00</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+<!--            <div class="jd_productBox clearfix">-->
+<!--               -->
+<!--            </div>-->
+            <div class="jd_productBox">
+                <div class="jd_pTip">
+                    <h3>京东超市</h3>
+                </div>
+                <div class="jd_pContent clearfix">
+                    <a href="" class="a_50 f_left">
+                        <img src="uploads/cp1.jpg" alt="">
+                    </a>
+                    <a href="" class="a_50 f_left b_bottom b_left">
+                        <img src="uploads/cp2.jpg" alt="">
+                    </a>
+                    <a href="" class="a_50 f_left b_left">
+                        <img src="uploads/cp3.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="jd_productBox">
+                <div class="jd_pTip">
+                    <h3>京东超市</h3>
+                </div>
+                <div class="jd_pContent clearfix">
+                    <a href="" class="a_50 f_right">
+                        <img src="uploads/cp4.jpg" alt="">
+                    </a>
+                    <a href="" class="a_50 f_right b_bottom b_left">
+                        <img src="uploads/cp5.jpg" alt="">
+                    </a>
+                    <a href="" class="a_50 f_right b_left">
+                        <img src="uploads/cp6.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
