@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a8be680-59f6-484e-953d-e974e5ea6cd2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/category.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/618-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cart-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/center-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/code.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/header-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon-login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/index-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/jd-sprites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nv-fy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/seckill-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/slide_01_2000x410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/slide_01_640x340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/slide_02_2000x410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/slide_02_640x340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/slide_03_2000x410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/slide_03_640x340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/slide_04_2000x410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/slide_04_640x340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sort-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sprites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/fastclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/banner_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/buy-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/buy-pro1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/cp1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/cp2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/cp3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/cp4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/cp5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/cp6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/delete_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/delete_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/detail01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/detail02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/focus-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/header-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/icon-updown-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/l1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/l2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/l3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/l4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/l5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/l6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/l7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/l8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/nav0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/nav1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/nav2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/nav3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/nav4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/nav5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/nav6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/nav7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/none.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/nv-fy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/safe_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/scroll-to-top-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/seckill-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/seckill_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/shop-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/sprits_btm_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/css/jquery.fullPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/css/myPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/css/myqq.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/btn-01-a.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/btn-01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/goods-441-218.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/img-01-a.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/img-01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/ksgw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/search-02-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/search-words.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/shirt-02-207-166.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t10zesfg4axxxdhbd4-170-375.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t12pksfedaxxx51i3j-389-156.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t13fcsfklcxxa2xfli-174-61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t14nyrflxbxxaanhk9-87-294.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1aiqpflbgxxxrti_a-308-59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1aissffjbxxa1caib-221-122.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1b2mrfo8cxxxfselu-358-221.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1c8gpfenexxav8lkd-205-819.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1dvj.fn0gxxb0_fua-2500-600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1faqsfdxbxxbl8tyr-93-56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1fpyqfltdxxaiulhh-990-600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1h1atfbtxxxauw33d-541-28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1hkqrfa8fxxc9v57_-10-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1iakufbxxxxctz4tl-824-274.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1imspfanexxck7ysj-543-107.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1iresfnxaxxca6rfn-2000-600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1itqrfarexxc9v57_-10-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1ivgtfbvxxxcjub_4-170-449.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1jfaaff4gxxcd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1kaesfxbbxxxprv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1kzyqffnexxbcrepj-139-173.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1ldiffkjfxxxzhxzd-101-101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1lg0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1mswrfxrcxxcfez7j-389-160.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1nrgqfalfxxbhn6zx-878-71.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1puypfatexxajuujj-139-130.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1sqosfx8bxxa9wx_i-173-47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1ulasfmldxxbheta4-105-34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1ut1pfnnexxxb5emy-126-305.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1wbktfddaxxav8lkd-205-819.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1wf1tfctaxxa3gmkg-2000-1500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1wforfkxcxxbl8tyr-93-56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1wrqqfbddxxcbi8jm-72-40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1wsqsfgnaxxxmjxp6-470-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1xccqfflgxxxild.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1yisqfa4exxa3gmkg-2000-1500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1zdgpfi8exxca6rfn-2000-600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1znypfhxdxxcubi7j-389-160.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/upgrade.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/words-01-361-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/words-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/words-04-a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/words-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/js/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/js/jquery.fullPage.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/js/myPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/js/myqq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/qq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html5api/html/img/微信图片_20200810202801.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html5api/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html5api/html/video/12 本地存储（一）.mp4" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1gDYRkPOrwZdnwV7ZiygBPj9gNv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yidongHTML" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sturdy\JD_mobile\js" />
+      <recent name="D:\sturdy\JD_mobile\images" />
+      <recent name="D:\sturdy\JD_mobile\uploads" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sturdy\JD_mobile\images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.category.html">
+    <configuration name="category.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JD_mobile/category.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JD_mobile/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/index.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.category.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a8be680-59f6-484e-953d-e974e5ea6cd2" name="Default Changelist" comment="" />
+      <created>1597650623507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597650623507</updated>
+      <workItem from="1597650624594" duration="56565000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1218" y="326" key="FileChooserDialogImpl" timestamp="1597974315017">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1218" y="326" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597974315017" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1597974316493">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597974316493" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1597974316493">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597974316493" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1597974316493">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597974316493" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1597974316493">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597974316493" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1597974316374">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597974316374" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1597974316373">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597974316373" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1597974316373">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597974316372" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1597974316373">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597974316373" />
+    <state width="1899" height="348" key="GridCell.Tab.2.bottom" timestamp="1597974316375">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.2.bottom/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597974316375" />
+    <state width="1899" height="348" key="GridCell.Tab.2.center" timestamp="1597974316374">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.2.center/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597974316374" />
+    <state width="1899" height="348" key="GridCell.Tab.2.left" timestamp="1597974316374">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.2.left/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597974316374" />
+    <state width="1899" height="348" key="GridCell.Tab.2.right" timestamp="1597974316375">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.2.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597974316375" />
+    <state width="1899" height="348" key="GridCell.Tab.3.bottom" timestamp="1597974316377">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.3.bottom/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597974316377" />
+    <state width="1899" height="348" key="GridCell.Tab.3.center" timestamp="1597974316376">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.3.center/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597974316376" />
+    <state width="1899" height="348" key="GridCell.Tab.3.left" timestamp="1597974316376">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.3.left/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597974316376" />
+    <state width="1899" height="348" key="GridCell.Tab.3.right" timestamp="1597974316376">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.3.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597974316376" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597888376789">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1597888376789" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/category.js</url>
+          <line>57</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="851df3a3-46d3-4a62-879a-4704996cb441" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/css/category.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/618-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/cart-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/center-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/code.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/header-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/icon-login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/icon-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/index-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/jd-sprites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/nav_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/nav_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/nav_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/nav_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/nav_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/nav_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/nav_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/nav_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/nv-fy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/seckill-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/slide_01_2000x410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/slide_01_640x340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/slide_02_2000x410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/slide_02_640x340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/slide_03_2000x410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/slide_03_640x340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/slide_04_2000x410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/slide_04_640x340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/sort-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/images/sprites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/js/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/js/fastclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/banner_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/buy-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/buy-pro1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/cp1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/cp2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/cp3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/cp4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/cp5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/cp6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/delete_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/delete_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/detail01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/detail02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/focus-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/header-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/icon-updown-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/l1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/l2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/l3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/l4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/l5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/l6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/l7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/l8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/nav0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/nav1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/nav2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/nav3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/nav4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/nav5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/nav6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/nav7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/none.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/nv-fy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/safe_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/scroll-to-top-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/seckill-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/seckill_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/shop-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JD_mobile/uploads/sprits_btm_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/css/jquery.fullPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/css/myPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/css/myqq.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/btn-01-a.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/btn-01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/goods-441-218.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/img-01-a.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/img-01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/ksgw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/search-02-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/search-words.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/shirt-02-207-166.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t10zesfg4axxxdhbd4-170-375.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t12pksfedaxxx51i3j-389-156.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t13fcsfklcxxa2xfli-174-61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t14nyrflxbxxaanhk9-87-294.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1aiqpflbgxxxrti_a-308-59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1aissffjbxxa1caib-221-122.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1b2mrfo8cxxxfselu-358-221.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1c8gpfenexxav8lkd-205-819.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1dvj.fn0gxxb0_fua-2500-600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1faqsfdxbxxbl8tyr-93-56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1fpyqfltdxxaiulhh-990-600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1h1atfbtxxxauw33d-541-28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1hkqrfa8fxxc9v57_-10-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1iakufbxxxxctz4tl-824-274.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1imspfanexxck7ysj-543-107.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1iresfnxaxxca6rfn-2000-600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1itqrfarexxc9v57_-10-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1ivgtfbvxxxcjub_4-170-449.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1jfaaff4gxxcd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1kaesfxbbxxxprv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1kzyqffnexxbcrepj-139-173.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1ldiffkjfxxxzhxzd-101-101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1lg0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1mswrfxrcxxcfez7j-389-160.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1nrgqfalfxxbhn6zx-878-71.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1puypfatexxajuujj-139-130.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1sqosfx8bxxa9wx_i-173-47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1ulasfmldxxbheta4-105-34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1ut1pfnnexxxb5emy-126-305.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1wbktfddaxxav8lkd-205-819.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1wf1tfctaxxa3gmkg-2000-1500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1wforfkxcxxbl8tyr-93-56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1wrqqfbddxxcbi8jm-72-40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1wsqsfgnaxxxmjxp6-470-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1xccqfflgxxxild.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1yisqfa4exxa3gmkg-2000-1500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1zdgpfi8exxca6rfn-2000-600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/t1znypfhxdxxcubi7j-389-160.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/upgrade.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/words-01-361-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/words-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/words-04-a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/images/words-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/js/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/js/jquery.fullPage.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/js/myPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/js/myqq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fullpage/qq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html5api/html/img/微信图片_20200810202801.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html5api/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html5api/html/video/12 本地存储（一）.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yidongHTML/index01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yidongHTML/index02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yidongHTML/index03.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1gOqtFZtdq1sP2uvGokO0WZufDZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../weiJinsuo" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bootstrap/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="851df3a3-46d3-4a62-879a-4704996cb441" name="Default Changelist" comment="" />
+      <created>1597996198479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597996198479</updated>
+      <workItem from="1597996199544" duration="5306000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1318" y="276" key="EditFileWatcherDialog" timestamp="1598055742710">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1318" y="276" key="EditFileWatcherDialog/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1598055742710" />
+    <state x="-1193" y="255" key="FileChooserDialogImpl" timestamp="1598060038917">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1193" y="255" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1598060038917" />
+  </component>
+</project>
