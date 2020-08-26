@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/lib/vue.js"></script>
+    <style>
+        .inner{
+            height: 150px;
+            background-color: lightslategray;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+<!--    //捕获事件click事件 优先触发-->
+<!--   <div class="inner" @click.capture="divHandler">-->
+       <div class="inner" @click.self="divHandler">
+        <!--       //阻止冒泡-->
+       <input type="button" value="click me" @click.stop="btnHandler">
+        <!--       2.阻止默认事件-->
+       <a href=“https://www.badu.com” @click.prew="">内事问百度</a>
+   </div>
+</div>
+</body>
+<script>
+    let vm = new Vue({
+        el:"#app",
+        data:{
+
+        },
+        methods:{
+            divHandler:function (){
+                console.log(
+                    '触发了div'
+                )
+            },
+            btnHandler:function (){
+                console.log("btn")
+            },
+            linkHandler:function (){
+                console.log("link")
+            }
+
+        }
+    })
+</script>
+</html>

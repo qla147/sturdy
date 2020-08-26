@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/lib/vue.js"></script>
+    <style>
+        [v-clock]{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+<!--        //最原始的插值表达式-->
+        <p v-cloak>{{msg}}</p>
+<!--        //v-text 替换h4中的文本信息-->
+        <h4 v-text="msg"></h4>
+<!--        //v-html 替换div中的html内容，替换的内容会自动渲染成为html-->
+        <div v-html="msg1"></div>
+<!--        //v-on 绑定click事件-->
+        <input type="button" v-bind:title="myTitle+123"  value="button" v-on:click="show">
+
+    </div>
+</body>
+<script>
+    let vm = new Vue({
+        el: "#app",//表示 我们要页面那个区域
+        data : {
+            msg:"欢迎学习vue",
+            msg1:"<h1>这一个H2</h1>",
+            myTitle:"这是一个定量"
+        }, //data属性， 存放着el中要使用的到的数据
+        methods:{
+            show:function (){
+                alert("hello")
+            }
+        }
+    });
+</script>
+</html>
