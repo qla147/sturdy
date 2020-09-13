@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,19 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2454d61d-0407-4d9f-b937-e94b45d5e39c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MVC与MVVM之间的区别.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue v-clock,v-text,v-html.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/public/01.vue的基本代码.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/public/VueCss.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/public/cycleAffect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/public/eventDecrorate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/public/js/lib/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/public/v-mode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express/public/Vue 生命周期.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express/public/js/lib/jquery-3.5.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node.js ES6函数相关新增.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node总结.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express/public/VueCss.html" beforeDir="false" afterPath="$PROJECT_DIR$/express/public/VueCss.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +37,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -69,10 +65,7 @@
       <recent name="D:\sturdy\html\express\public\js\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.VueCss.html">
-    <configuration name="01.vue的基本代码.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/express/public/01.vue的基本代码.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.test.js">
     <configuration name="VueCss.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/express/public/VueCss.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -85,13 +78,16 @@
     <configuration name="v-mode.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html/express/public/v-mode.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/express/public/js/test.js" working-dir="$PROJECT_DIR$/express/public/js">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.test.js" />
         <item itemvalue="JavaScript Debug.VueCss.html" />
         <item itemvalue="JavaScript Debug.v-mode.html" />
         <item itemvalue="JavaScript Debug.eventDecrorate.html" />
         <item itemvalue="JavaScript Debug.cycleAffect.html" />
-        <item itemvalue="JavaScript Debug.01.vue的基本代码.html" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +101,11 @@
       <updated>1598174679477</updated>
       <workItem from="1598174680553" duration="94000" />
       <workItem from="1598257663467" duration="222000" />
-      <workItem from="1598265748605" duration="18151000" />
+      <workItem from="1598265748605" duration="30642000" />
+      <workItem from="1598492744067" duration="5289000" />
+      <workItem from="1599631709734" duration="2506000" />
+      <workItem from="1599965408911" duration="1051000" />
+      <workItem from="1599979136135" duration="3095000" />
     </task>
     <servers />
   </component>
@@ -129,9 +129,25 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1340" y="212" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1598257883790" />
-    <state x="-1381" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1598272509218">
+    <state width="1892" height="267" key="GridCell.Tab.0.bottom" timestamp="1599636166017">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1892" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599636166017" />
+    <state width="1892" height="267" key="GridCell.Tab.0.center" timestamp="1599636166016">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1892" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599636166016" />
+    <state width="1892" height="267" key="GridCell.Tab.0.left" timestamp="1599636166016">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1892" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599636166016" />
+    <state width="1892" height="267" key="GridCell.Tab.0.right" timestamp="1599636166017">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1892" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599636166017" />
+    <state x="-1381" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1598495244339">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1381" y="5" width="840" height="1034" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1598272509218" />
+    <state x="-1381" y="5" width="840" height="1034" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1598495244339" />
   </component>
 </project>

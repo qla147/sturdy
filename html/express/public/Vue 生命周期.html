@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible">
+    <title>Title</title>
+    <script src="js/lib/vue.js"></script>
+    <script src="js/lib/vue-resource-1.3.4.js"></script>
+    <link rel="stylesheet" href="js/lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="js/lib/jquery-3.5.1.min.js"></script>
+    <script src="js/lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <table class="table table-bordered table-striped table-hover ">
+            <thead>
+                <tr>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+<script>
+    let vm = new Vue({
+        el: "#app",
+        data:{
+
+        },
+        methods:{
+            getInfo (){
+                this.$http.get("http://vue.studyit.io/api/getgetlunbo").then(result=>{
+                    console.log(result)
+                })
+                this.$http.jsonp("url",{}).then(function (result){
+
+                })
+                this.$http.post("url").then(function(result){
+
+                })
+            }
+        }
+    })
+</script>
+</html>
